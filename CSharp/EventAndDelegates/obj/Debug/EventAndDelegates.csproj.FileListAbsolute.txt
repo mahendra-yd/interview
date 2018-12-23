@@ -1,0 +1,5 @@
+C:\Users\mayada\Desktop\work\EventAndDelegates\bin\Debug\EventAndDelegates.exe.config
+C:\Users\mayada\Desktop\work\EventAndDelegates\bin\Debug\EventAndDelegates.exe
+C:\Users\mayada\Desktop\work\EventAndDelegates\bin\Debug\EventAndDelegates.pdb
+C:\Users\mayada\Desktop\work\EventAndDelegates\obj\Debug\EventAndDelegates.exe
+C:\Users\mayada\Desktop\work\EventAndDelegates\obj\Debug\EventAndDelegates.pdb

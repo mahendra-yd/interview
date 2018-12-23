@@ -1,0 +1,94 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Accept	tcpserver.cpp	/^int Server::Accept()$/;"	f	class:Server
+BYTE	md5.h	/^typedef unsigned char BYTE ;$/;"	t
+CC	makefile	/^CC=g++$/;"	m
+CFLAGS	makefile	/^CFLAGS=-I. -std=c++11 -pthread  -g$/;"	m
+Close	tcpsocket.cpp	/^Socket::Close()$/;"	f	class:Socket
+Connect	tcpsocket.cpp	/^bool Socket::Connect()$/;"	f	class:Socket
+DEPS	makefile	/^DEPS = tcpserver.h tcpsocket.h$/;"	m
+Decode	md5.h	/^		static void Decode( UINT4 *output, unsigned char *input, unsigned int len )$/;"	f	class:MD5
+Encode	md5.h	/^		static void Encode( unsigned char *output, UINT4 *input, unsigned int len )$/;"	f	class:MD5
+F	md5.h	65;"	d
+FF	md5.h	75;"	d
+Final	md5.h	/^		void Final()$/;"	f	class:MD5
+G	md5.h	66;"	d
+GG	md5.h	80;"	d
+H	md5.h	67;"	d
+HH	md5.h	85;"	d
+I	md5.h	68;"	d
+II	md5.h	90;"	d
+INC_PATH	makefile	/^INC_PATH := -I .\/inc$/;"	m
+Init	md5.h	/^		void Init()$/;"	f	class:MD5
+MD5	md5.h	/^		MD5()$/;"	f	class:MD5
+MD5	md5.h	/^class MD5$/;"	c
+MD5Transform	md5.h	/^		static void MD5Transform( UINT4 state[4], unsigned char block[64] )$/;"	f	class:MD5
+MD5_H	md5.h	3;"	d
+OBJC	makefile	/^OBJC =  tcpsocket.o client.o sendModule.o $/;"	m
+OBJS	makefile	/^OBJS = tcpserver.o tcpsocket.o server.o sendModule.o $/;"	m
+OBJ_PATH	makefile	/^OBJ_PATH := .\/bin$/;"	m
+PADDING	md5.h	/^static unsigned char PADDING[64] = {$/;"	v
+POINTER	md5.h	/^typedef unsigned char *POINTER;$/;"	t
+ROTATE_LEFT	md5.h	71;"	d
+Read	tcpsocket.cpp	/^int Socket::Read(char * buf, int len){$/;"	f	class:Socket
+ReadInput	sendModule.cpp	/^void ReadInput()$/;"	f
+S11	md5.h	36;"	d
+S12	md5.h	37;"	d
+S13	md5.h	38;"	d
+S14	md5.h	39;"	d
+S21	md5.h	40;"	d
+S22	md5.h	41;"	d
+S23	md5.h	42;"	d
+S24	md5.h	43;"	d
+S31	md5.h	44;"	d
+S32	md5.h	45;"	d
+S33	md5.h	46;"	d
+S34	md5.h	47;"	d
+S41	md5.h	48;"	d
+S42	md5.h	49;"	d
+S43	md5.h	50;"	d
+S44	md5.h	51;"	d
+SRC_PATH	makefile	/^SRC_PATH := .\/src\/$/;"	m
+Server	tcpserver.cpp	/^Server::Server(string port, int len)$/;"	f	class:Server
+Server	tcpserver.h	/^class Server$/;"	c
+ShareReceive	sendModule.cpp	/^void ShareReceive( Socket sd)$/;"	f
+ShareSend	sendModule.cpp	/^void ShareSend(string file)$/;"	f
+Socket	tcpsocket.cpp	/^Socket::Socket(const Socket& clientsd)$/;"	f	class:Socket
+Socket	tcpsocket.cpp	/^Socket::Socket(int clientsd)$/;"	f	class:Socket
+Socket	tcpsocket.cpp	/^Socket::Socket(string port, string ipaddress)$/;"	f	class:Socket
+Socket	tcpsocket.h	/^class Socket$/;"	c
+UINT2	md5.h	/^typedef unsigned short int UINT2;$/;"	t
+UINT4	md5.h	/^typedef unsigned long int UINT4;$/;"	t
+Update	md5.h	/^		void Update($/;"	f	class:MD5
+Write	tcpsocket.cpp	/^int Socket::Write(const char * buf, int len,size_t flag){$/;"	f	class:Socket
+__context_t	md5.h	/^		struct __context_t {$/;"	s	class:MD5
+buffer	md5.h	/^			unsigned char buffer[64];                         \/* input buffer *\/$/;"	m	struct:MD5::__context_t
+clienthandler	server.cpp	/^void clienthandler(int  csd)$/;"	f
+clintConnt	tcpserver.h	/^	int serversd , clintConnt ;$/;"	m	class:Server
+context	md5.h	/^		} context ;$/;"	m	class:MD5	typeref:struct:MD5::__context_t
+count	md5.h	/^			UINT4 count[2];        \/* number of bits, modulo 2^64 (lsb first) *\/$/;"	m	struct:MD5::__context_t
+digestChars	md5.h	/^		char digestChars[ 33 ] ;$/;"	m	class:MD5
+digestFile	md5.h	/^		char* digestFile( char *filename )$/;"	f	class:MD5
+digestMemory	md5.h	/^		char* digestMemory( BYTE *memchunk, int len )$/;"	f	class:MD5
+digestRaw	md5.h	/^		BYTE digestRaw[ 16 ] ;$/;"	m	class:MD5
+digestString	md5.h	/^		char* digestString( char *string )$/;"	f	class:MD5
+fun	mdm5.cpp	/^void fun()$/;"	f
+getFileName	sendModule.cpp	/^string getFileName(const string& s) $/;"	f
+handle_error	tcpsocket.cpp	2;"	d	file:
+ipOfServer	tcpserver.h	/^	struct sockaddr_in ipOfServer;$/;"	m	class:Server	typeref:struct:Server::sockaddr_in
+ipOfServer	tcpsocket.h	/^		struct sockaddr_in ipOfServer;$/;"	m	class:Socket	typeref:struct:Socket::sockaddr_in
+listenlen	tcpserver.h	/^	int listenlen ;$/;"	m	class:Server
+main	client.cpp	/^int main()$/;"	f
+main	mdm5.cpp	/^int main()$/;"	f
+main	server.cpp	/^int main()$/;"	f
+sd	tcpsocket.h	/^		int sd;$/;"	m	class:Socket
+server	server.cpp	/^void server()$/;"	f
+serversd	tcpserver.h	/^	int serversd , clintConnt ;$/;"	m	class:Server
+state	md5.h	/^			UINT4 state[4];                                   \/* state (ABCD) *\/$/;"	m	struct:MD5::__context_t
+writeToString	md5.h	/^		void writeToString()$/;"	f	class:MD5
+~Server	tcpserver.cpp	/^Server::~Server()$/;"	f	class:Server
+~Socket	tcpsocket.cpp	/^Socket::~Socket()$/;"	f	class:Socket

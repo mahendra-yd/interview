@@ -1,0 +1,7 @@
+C:\Users\mayada\work\vs17\ConsoleApp1\DPinCsharp\bin\Debug\DPinCsharp.exe.config
+C:\Users\mayada\work\vs17\ConsoleApp1\DPinCsharp\bin\Debug\DPinCsharp.exe
+C:\Users\mayada\work\vs17\ConsoleApp1\DPinCsharp\bin\Debug\DPinCsharp.pdb
+C:\Users\mayada\work\vs17\ConsoleApp1\DPinCsharp\obj\Debug\DPsharp.csprojResolveAssemblyReference.cache
+C:\Users\mayada\work\vs17\ConsoleApp1\DPinCsharp\obj\Debug\DPsharp.csproj.CoreCompileInputs.cache
+C:\Users\mayada\work\vs17\ConsoleApp1\DPinCsharp\obj\Debug\DPinCsharp.exe
+C:\Users\mayada\work\vs17\ConsoleApp1\DPinCsharp\obj\Debug\DPinCsharp.pdb

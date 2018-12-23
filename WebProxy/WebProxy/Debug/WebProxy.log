@@ -1,0 +1,4 @@
+﻿  WebProxy.cpp
+c:\users\mayada\documents\visual studio 2015\projects\webproxy\webproxy\webproxy.cpp(71): warning C4101: 'iSendResult': unreferenced local variable
+  WebProxy.vcxproj -> C:\Users\mayada\documents\visual studio 2015\Projects\WebProxy\Debug\WebProxy.exe
+  WebProxy.vcxproj -> C:\Users\mayada\documents\visual studio 2015\Projects\WebProxy\Debug\WebProxy.pdb (Full PDB)

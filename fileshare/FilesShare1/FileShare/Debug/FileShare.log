@@ -1,0 +1,10 @@
+﻿  FileShare.cpp
+c:\users\mayada\source\repos\fileshare\fileshare\fileshare.cpp(40): error C2660: 'inet_addr': function does not take 2 arguments
+c:\users\mayada\source\repos\fileshare\fileshare\fileshare.cpp(42): error C2440: 'type cast': cannot convert from 'sockaddr_in' to 'sockaddr *'
+  c:\users\mayada\source\repos\fileshare\fileshare\fileshare.cpp(42): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\mayada\source\repos\fileshare\fileshare\fileshare.cpp(42): error C2660: 'bind': function does not take 2 arguments
+c:\users\mayada\source\repos\fileshare\fileshare\fileshare.cpp(49): error C2440: 'type cast': cannot convert from 'sockaddr_in' to 'sockaddr *'
+  c:\users\mayada\source\repos\fileshare\fileshare\fileshare.cpp(49): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\mayada\source\repos\fileshare\fileshare\fileshare.cpp(49): error C2660: 'bind': function does not take 2 arguments
+c:\users\mayada\source\repos\fileshare\fileshare\fileshare.cpp(47): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\winsock2.h(1830): note: see declaration of 'inet_addr'

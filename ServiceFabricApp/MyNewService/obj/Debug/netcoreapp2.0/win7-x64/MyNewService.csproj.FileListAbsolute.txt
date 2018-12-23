@@ -1,0 +1,3 @@
+C:\Users\mayada\Source\Repos\ServiceFabricApp\MyNewService\obj\Debug\netcoreapp2.0\win7-x64\MyNewService.csproj.CoreCompileInputs.cache
+C:\Users\mayada\Source\Repos\ServiceFabricApp\MyNewService\obj\Debug\netcoreapp2.0\win7-x64\MyNewService.AssemblyInfoInputs.cache
+C:\Users\mayada\Source\Repos\ServiceFabricApp\MyNewService\obj\Debug\netcoreapp2.0\win7-x64\MyNewService.AssemblyInfo.cs

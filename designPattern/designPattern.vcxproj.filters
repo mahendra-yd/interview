@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\creational">
+      <UniqueIdentifier>{e0097b09-ee5c-4e60-9f63-34571f648f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\behavioral">
+      <UniqueIdentifier>{09773e38-742a-496b-81cf-967adfb9f3d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\structural">
+      <UniqueIdentifier>{2a05e4f8-21bc-40ea-89f7-d4010fe95016}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="designPattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>Source Files\creational</Filter>
+    </ClCompile>
+    <ClCompile Include="factory.cpp">
+      <Filter>Source Files\creational</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>Source Files\creational</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtoType.cpp">
+      <Filter>Source Files\creational</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>Source Files\creational</Filter>
+    </ClCompile>
+    <ClCompile Include="Adapter.cpp">
+      <Filter>Source Files\structural</Filter>
+    </ClCompile>
+    <ClCompile Include="bridge.cpp">
+      <Filter>Source Files\structural</Filter>
+    </ClCompile>
+    <ClCompile Include="Composit.cpp">
+      <Filter>Source Files\structural</Filter>
+    </ClCompile>
+    <ClCompile Include="Decorator.cpp">
+      <Filter>Source Files\structural</Filter>
+    </ClCompile>
+    <ClCompile Include="Flyweight.cpp">
+      <Filter>Source Files\structural</Filter>
+    </ClCompile>
+    <ClCompile Include="facade.cpp">
+      <Filter>Source Files\structural</Filter>
+    </ClCompile>
+    <ClCompile Include="Proxy.cpp">
+      <Filter>Source Files\structural</Filter>
+    </ClCompile>
+    <ClCompile Include="ChainOfResponsibility.cpp">
+      <Filter>Source Files\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Source Files\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter.cpp">
+      <Filter>Source Files\behavioral</Filter>
+    </ClCompile>
+    <ClCompile Include="interpretor.cpp">
+      <Filter>Source Files\behavioral</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

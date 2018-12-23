@@ -1,0 +1,1 @@
+g++ -o "/home/mahi/projects/FileShareLinux/bin/x64/Debug/FileShareLinux.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/mahi/projects/FileShareLinux/obj/x64/Debug/main.o

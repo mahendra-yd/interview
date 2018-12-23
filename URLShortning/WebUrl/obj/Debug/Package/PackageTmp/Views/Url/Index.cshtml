@@ -1,0 +1,45 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Urlify</title>
+    <link href="~/Content/url.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="glyphicon-align-center">
+        <H1 >    Welcome    </H1>
+        <div >
+            <form action="" id="url" method="post">
+                <div>
+                    <label  class="margin">Enter long Url</label>
+                    <input name="longurl" />
+                    <button class="margin"> submit</button>
+                </div>
+            </form>
+        </div>
+        <br /><br /><br /><br />
+        <div>
+            <form action="" id="url" method="post">
+                <div>
+                    <label  class="margin">Enter short Url</label>
+                    <input name="shorturl" class="margin"/>
+                    <button class="margin"> submit</button>
+                </div>
+            </form>
+        </div>
+        <br />
+        <br />  <br />  <br />
+                        <div>
+                            <label class="margin">@ViewBag.resultTitle</label>
+                            <br />
+                            <textarea id="fullurl"  style="margin: 0px; width: 498px; height: 55px;"> @ViewBag.fullurl</textarea>
+                        </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:16 PM] At least one other instance of the launcher is running. Will wait until they all finish
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:16 PM] Service running in Emulator Mode, will not wait/kill other instances of the launcher
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:16 PM] Emulator config file set to C:\Users\mayada\work\cloudService\C#\ContosoAdsCloudService\csx\Debug\roles\ContosoAdsWorker\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:16 PM] DiagnosticsStoreRootPath set to: C:\Users\mayada\AppData\Local\dftmp\Resources\511c6c31-622c-4cce-be6f-e2fd1e5b0d99
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:16 PM] Loading config file: C:\Users\mayada\work\cloudService\C#\ContosoAdsCloudService\csx\Debug\roles\ContosoAdsWorker\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:17 PM] Config file to read: C:\Users\mayada\work\cloudService\C#\ContosoAdsCloudService\csx\Debug\roles\ContosoAdsWorker\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:17 PM] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:17 PM] Emulator config file set to C:\Users\mayada\work\cloudService\C#\ContosoAdsCloudService\csx\Debug\roles\ContosoAdsWorker\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:17 PM] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:17 PM] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:17 PM] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:17 PM] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:17 PM] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:17 PM] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:17 PM] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:18 PM] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:37:18 PM] Resetting DiagnosticPlugin
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:38:29 PM] DiagnosticsPlugin launched successfully with new configuration
+DiagnosticsPluginLauncher.exe Information: 0 : [3/6/18 6:38:29 PM] DiagnosticPlugin exited with code 0

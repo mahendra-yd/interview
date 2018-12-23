@@ -1,0 +1,7 @@
+C:\Users\mayada\work\vs17\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\mayada\work\vs17\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\mayada\work\vs17\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\mayada\work\vs17\ConsoleApp1\ConsoleApp1\obj\Debug\EventAndDelegates.csprojResolveAssemblyReference.cache
+C:\Users\mayada\work\vs17\ConsoleApp1\ConsoleApp1\obj\Debug\EventAndDelegates.csproj.CoreCompileInputs.cache
+C:\Users\mayada\work\vs17\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\mayada\work\vs17\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

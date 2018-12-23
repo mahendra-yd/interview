@@ -1,0 +1,25 @@
+﻿body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    margin-left: 0px;
+    align-content:center;
+    text-align:center;
+    background-color:#565db3;
+}
+div {
+    color: navy;
+    align-content: center;
+    text-align: center;
+    background-color: #7299cd;
+}
+.margin {
+    margin-left: 20px;
+}
+
+textarea {
+    width:200px;
+    height: 100px;
+}

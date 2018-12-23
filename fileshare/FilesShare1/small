@@ -1,0 +1,315 @@
+#include "tcpsocket.h"
+using namespace std;
+
+void ReadInput();
+int main()
+{
+/*	int n = 0;
+	char dataReceived[1024];
+	memset(dataReceived, 0 ,sizeof(dataReceived));	
+	Socket s("8888");
+	s.Connect();
+	n=s.Read(dataReceived, sizeof(dataReceived)-1);
+
+	dataReceived[n] = 0;
+	//std::cout << dataReceived;
+
+	printf("%s",dataReceived);
+	*/
+ReadInput();
+return 0;
+} 
+#include "tcpsocket.h"
+using namespace std;
+
+void ReadInput();
+int main()
+{
+/*	int n = 0;
+	char dataReceived[1024];
+	memset(dataReceived, 0 ,sizeof(dataReceived));	
+	Socket s("8888");
+	s.Connect();
+	n=s.Read(dataReceived, sizeof(dataReceived)-1);
+
+	dataReceived[n] = 0;
+	//std::cout << dataReceived;
+
+	printf("%s",dataReceived);
+	*/
+ReadInput();
+return 0;
+} 
+#include "tcpsocket.h"
+using namespace std;
+
+void ReadInput();
+int main()
+{
+/*	int n = 0;
+	char dataReceived[1024];
+	memset(dataReceived, 0 ,sizeof(dataReceived));	
+	Socket s("8888");
+	s.Connect();
+	n=s.Read(dataReceived, sizeof(dataReceived)-1);
+
+	dataReceived[n] = 0;
+	//std::cout << dataReceived;
+
+	printf("%s",dataReceived);
+	*/
+ReadInput();
+return 0;
+} 
+#include "tcpsocket.h"
+using namespace std;
+
+void ReadInput();
+int main()
+{
+/*	int n = 0;
+	char dataReceived[1024];
+	memset(dataReceived, 0 ,sizeof(dataReceived));	
+	Socket s("8888");
+	s.Connect();
+	n=s.Read(dataReceived, sizeof(dataReceived)-1);
+
+	dataReceived[n] = 0;
+	//std::cout << dataReceived;
+
+	printf("%s",dataReceived);
+	*/
+ReadInput();
+return 0;
+} 
+#include "tcpsocket.h"
+using namespace std;
+
+void ReadInput();
+int main()
+{
+/*	int n = 0;
+	char dataReceived[1024];
+	memset(dataReceived, 0 ,sizeof(dataReceived));	
+	Socket s("8888");
+	s.Connect();
+	n=s.Read(dataReceived, sizeof(dataReceived)-1);
+
+	dataReceived[n] = 0;
+	//std::cout << dataReceived;
+
+	printf("%s",dataReceived);
+	*/
+ReadInput();
+return 0;
+} 
+#include "tcpsocket.h"
+using namespace std;
+
+void ReadInput();
+int main()
+{
+/*	int n = 0;
+	char dataReceived[1024];
+	memset(dataReceived, 0 ,sizeof(dataReceived));	
+	Socket s("8888");
+	s.Connect();
+	n=s.Read(dataReceived, sizeof(dataReceived)-1);
+
+	dataReceived[n] = 0;
+	//std::cout << dataReceived;
+
+	printf("%s",dataReceived);
+	*/
+ReadInput();
+return 0;
+} 
+#include "tcpsocket.h"
+using namespace std;
+
+void ReadInput();
+int main()
+{
+/*	int n = 0;
+	char dataReceived[1024];
+	memset(dataReceived, 0 ,sizeof(dataReceived));	
+	Socket s("8888");
+	s.Connect();
+	n=s.Read(dataReceived, sizeof(dataReceived)-1);
+
+	dataReceived[n] = 0;
+	//std::cout << dataReceived;
+
+	printf("%s",dataReceived);
+	*/
+ReadInput();
+return 0;
+} 
+#include "tcpsocket.h"
+using namespace std;
+
+void ReadInput();
+int main()
+{
+/*	int n = 0;
+	char dataReceived[1024];
+	memset(dataReceived, 0 ,sizeof(dataReceived));	
+	Socket s("8888");
+	s.Connect();
+	n=s.Read(dataReceived, sizeof(dataReceived)-1);
+
+	dataReceived[n] = 0;
+	//std::cout << dataReceived;
+
+	printf("%s",dataReceived);
+	*/
+ReadInput();
+return 0;
+} 
+#include "tcpsocket.h"
+using namespace std;
+
+void ReadInput();
+int main()
+{
+/*	int n = 0;
+	char dataReceived[1024];
+	memset(dataReceived, 0 ,sizeof(dataReceived));	
+	Socket s("8888");
+	s.Connect();
+	n=s.Read(dataReceived, sizeof(dataReceived)-1);
+
+	dataReceived[n] = 0;
+	//std::cout << dataReceived;
+
+	printf("%s",dataReceived);
+	*/
+ReadInput();
+return 0;
+} 
+#include "tcpsocket.h"
+using namespace std;
+
+void ReadInput();
+int main()
+{
+/*	int n = 0;
+	char dataReceived[1024];
+	memset(dataReceived, 0 ,sizeof(dataReceived));	
+	Socket s("8888");
+	s.Connect();
+	n=s.Read(dataReceived, sizeof(dataReceived)-1);
+
+	dataReceived[n] = 0;
+	//std::cout << dataReceived;
+
+	printf("%s",dataReceived);
+	*/
+ReadInput();
+return 0;
+} 
+#include "tcpsocket.h"
+using namespace std;
+
+void ReadInput();
+int main()
+{
+/*	int n = 0;
+	char dataReceived[1024];
+	memset(dataReceived, 0 ,sizeof(dataReceived));	
+	Socket s("8888");
+	s.Connect();
+	n=s.Read(dataReceived, sizeof(dataReceived)-1);
+
+	dataReceived[n] = 0;
+	//std::cout << dataReceived;
+
+	printf("%s",dataReceived);
+	*/
+ReadInput();
+return 0;
+} 
+#include "tcpsocket.h"
+using namespace std;
+
+void ReadInput();
+int main()
+{
+/*	int n = 0;
+	char dataReceived[1024];
+	memset(dataReceived, 0 ,sizeof(dataReceived));	
+	Socket s("8888");
+	s.Connect();
+	n=s.Read(dataReceived, sizeof(dataReceived)-1);
+
+	dataReceived[n] = 0;
+	//std::cout << dataReceived;
+
+	printf("%s",dataReceived);
+	*/
+ReadInput();
+return 0;
+} 
+#include "tcpsocket.h"
+using namespace std;
+
+void ReadInput();
+int main()
+{
+/*	int n = 0;
+	char dataReceived[1024];
+	memset(dataReceived, 0 ,sizeof(dataReceived));	
+	Socket s("8888");
+	s.Connect();
+	n=s.Read(dataReceived, sizeof(dataReceived)-1);
+
+	dataReceived[n] = 0;
+	//std::cout << dataReceived;
+
+	printf("%s",dataReceived);
+	*/
+ReadInput();
+return 0;
+} 
+#include "tcpsocket.h"
+using namespace std;
+
+void ReadInput();
+int main()
+{
+/*	int n = 0;
+	char dataReceived[1024];
+	memset(dataReceived, 0 ,sizeof(dataReceived));	
+	Socket s("8888");
+	s.Connect();
+	n=s.Read(dataReceived, sizeof(dataReceived)-1);
+
+	dataReceived[n] = 0;
+	//std::cout << dataReceived;
+
+	printf("%s",dataReceived);
+	*/
+ReadInput();
+return 0;
+} 
+#include "tcpsocket.h"
+using namespace std;
+
+void ReadInput();
+int main()
+{
+/*	int n = 0;
+	char dataReceived[1024];
+	memset(dataReceived, 0 ,sizeof(dataReceived));	
+	Socket s("8888");
+	s.Connect();
+	n=s.Read(dataReceived, sizeof(dataReceived)-1);
+
+	dataReceived[n] = 0;
+	//std::cout << dataReceived;
+
+	printf("%s",dataReceived);
+	*/
+ReadInput();
+return 0;
+} 

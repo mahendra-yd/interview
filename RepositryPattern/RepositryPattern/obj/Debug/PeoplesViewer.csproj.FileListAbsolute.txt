@@ -1,0 +1,15 @@
+c:\users\mayada\Source\Repos\RepositryPattern\RepositryPattern\bin\Debug\RepositryPattern.exe.config
+c:\users\mayada\Source\Repos\RepositryPattern\RepositryPattern\bin\Debug\RepositryPattern.exe
+c:\users\mayada\Source\Repos\RepositryPattern\RepositryPattern\bin\Debug\RepositryPattern.pdb
+c:\users\mayada\Source\Repos\RepositryPattern\RepositryPattern\obj\Debug\PeoplesViewer.csprojResolveAssemblyReference.cache
+c:\users\mayada\Source\Repos\RepositryPattern\RepositryPattern\obj\Debug\MainWindow.g.cs
+c:\users\mayada\Source\Repos\RepositryPattern\RepositryPattern\obj\Debug\App.g.cs
+c:\users\mayada\Source\Repos\RepositryPattern\RepositryPattern\obj\Debug\RepositryPattern_MarkupCompile.cache
+c:\users\mayada\Source\Repos\RepositryPattern\RepositryPattern\obj\Debug\RepositryPattern_MarkupCompile.lref
+c:\users\mayada\Source\Repos\RepositryPattern\RepositryPattern\obj\Debug\MainWindow.baml
+c:\users\mayada\Source\Repos\RepositryPattern\RepositryPattern\obj\Debug\RepositryPattern.g.resources
+c:\users\mayada\Source\Repos\RepositryPattern\RepositryPattern\obj\Debug\RepositryPattern.Properties.Resources.resources
+c:\users\mayada\Source\Repos\RepositryPattern\RepositryPattern\obj\Debug\PeoplesViewer.csproj.GenerateResource.Cache
+c:\users\mayada\Source\Repos\RepositryPattern\RepositryPattern\obj\Debug\PeoplesViewer.csproj.CoreCompileInputs.cache
+c:\users\mayada\Source\Repos\RepositryPattern\RepositryPattern\obj\Debug\RepositryPattern.exe
+c:\users\mayada\Source\Repos\RepositryPattern\RepositryPattern\obj\Debug\RepositryPattern.pdb

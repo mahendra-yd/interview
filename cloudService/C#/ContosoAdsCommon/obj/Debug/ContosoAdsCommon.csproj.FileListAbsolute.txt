@@ -1,0 +1,11 @@
+C:\Users\mayada\work\cloudService\C#\ContosoAdsCommon\bin\Debug\ContosoAdsCommon.dll.config
+C:\Users\mayada\work\cloudService\C#\ContosoAdsCommon\bin\Debug\ContosoAdsCommon.dll
+C:\Users\mayada\work\cloudService\C#\ContosoAdsCommon\bin\Debug\ContosoAdsCommon.pdb
+C:\Users\mayada\work\cloudService\C#\ContosoAdsCommon\bin\Debug\EntityFramework.dll
+C:\Users\mayada\work\cloudService\C#\ContosoAdsCommon\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mayada\work\cloudService\C#\ContosoAdsCommon\bin\Debug\EntityFramework.xml
+C:\Users\mayada\work\cloudService\C#\ContosoAdsCommon\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mayada\work\cloudService\C#\ContosoAdsCommon\obj\Debug\ContosoAdsCommon.csprojResolveAssemblyReference.cache
+C:\Users\mayada\work\cloudService\C#\ContosoAdsCommon\obj\Debug\ContosoAdsCommon.csproj.CoreCompileInputs.cache
+C:\Users\mayada\work\cloudService\C#\ContosoAdsCommon\obj\Debug\ContosoAdsCommon.dll
+C:\Users\mayada\work\cloudService\C#\ContosoAdsCommon\obj\Debug\ContosoAdsCommon.pdb

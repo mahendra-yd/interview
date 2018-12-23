@@ -1,0 +1,4 @@
+﻿  testProject.cpp
+c:\users\mayada\work\practice1\datastructure\testproject\testproject.cpp(22): warning C4554: '^': check operator precedence for possible error; use parentheses to clarify precedence
+  testProject.vcxproj -> C:\Users\mayada\work\Practice1\DataStructure\Debug\testProject.exe
+  testProject.vcxproj -> C:\Users\mayada\work\Practice1\DataStructure\Debug\testProject.pdb (Full PDB)

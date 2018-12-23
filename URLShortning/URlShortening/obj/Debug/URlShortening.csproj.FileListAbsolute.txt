@@ -1,0 +1,7 @@
+C:\Users\mayada\Source\Repos\URLShortning\URlShortening\bin\Debug\URlShortening.exe.config
+C:\Users\mayada\Source\Repos\URLShortning\URlShortening\bin\Debug\URlShortening.exe
+C:\Users\mayada\Source\Repos\URLShortning\URlShortening\bin\Debug\URlShortening.pdb
+C:\Users\mayada\Source\Repos\URLShortning\URlShortening\obj\Debug\URlShortening.csprojResolveAssemblyReference.cache
+C:\Users\mayada\Source\Repos\URLShortning\URlShortening\obj\Debug\URlShortening.csproj.CoreCompileInputs.cache
+C:\Users\mayada\Source\Repos\URLShortning\URlShortening\obj\Debug\URlShortening.exe
+C:\Users\mayada\Source\Repos\URLShortning\URlShortening\obj\Debug\URlShortening.pdb

@@ -1,0 +1,228 @@
+﻿  Parking.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(556): error C2039: 'value_type': is not a member of 'std::pair<int,int>'
+  c:\users\mayada\documents\visual studio 2015\projects\parking\parking\parking.cpp(62): note: see declaration of 'std::pair<int,int>'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(887): note: see reference to class template instantiation 'std::allocator_traits<_Alloc>' being compiled
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(450): note: see reference to class template instantiation 'std::_Wrap_alloc<std::pair<int,int>>' being compiled
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(502): note: see reference to class template instantiation 'std::_Vec_base_types<_Ty,_Alloc>' being compiled
+          with
+          [
+              _Ty=int,
+              _Alloc=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(680): note: see reference to class template instantiation 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>' being compiled
+          with
+          [
+              _Ty=int,
+              _Alloc=std::pair<int,int>
+          ]
+  c:\users\mayada\documents\visual studio 2015\projects\parking\parking\parking.cpp(68): note: see reference to class template instantiation 'std::vector<int,std::pair<int,int>>' being compiled
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(556): error C3646: 'value_type': unknown override specifier
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(556): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(315): error C2146: syntax error: missing '>' before identifier 'value_type'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(558): note: see reference to class template instantiation 'std::_Get_pointer_type<_Alloc>' being compiled
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(315): error C2672: 'std::_Get_pointer_type<_Alloc>::_Fn': no matching overloaded function found
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(315): error C2893: Failed to specialize function template 'std::_Identity<ptrdiff_t> std::_Get_pointer_type<_Alloc>::_Fn(std::_Wrap_int)'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(315): note: With the following template arguments:
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(315): note: '_Uty=std::pair<int,int>'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(315): error C2770: invalid explicit template argument(s) for 'std::_Identity<_Uty::pointer> std::_Get_pointer_type<_Alloc>::_Fn(int)'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(315): note: see declaration of 'std::_Get_pointer_type<_Alloc>::_Fn'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(322): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(560): note: see reference to class template instantiation 'std::_Get_const_pointer_type<_Alloc>' being compiled
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(322): error C2146: syntax error: missing '>' before identifier 'value_type'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(322): error C2672: 'std::_Get_const_pointer_type<_Alloc>::_Fn': no matching overloaded function found
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(322): error C2770: invalid explicit template argument(s) for 'std::_Identity<pointer_traits<_Get_pointer_type<_Alloc>::_Decltype::type>::rebind<const int>> std::_Get_const_pointer_type<_Alloc>::_Fn(std::_Wrap_int)'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(322): note: see declaration of 'std::_Get_const_pointer_type<_Alloc>::_Fn'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(322): error C2770: invalid explicit template argument(s) for 'std::_Identity<_Uty::const_pointer> std::_Get_const_pointer_type<_Alloc>::_Fn(int)'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(322): note: see declaration of 'std::_Get_const_pointer_type<_Alloc>::_Fn'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(329): error C2672: 'std::_Get_void_pointer_type<_Alloc>::_Fn': no matching overloaded function found
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(562): note: see reference to class template instantiation 'std::_Get_void_pointer_type<_Alloc>' being compiled
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(329): error C2770: invalid explicit template argument(s) for 'std::_Identity<pointer_traits<_Get_pointer_type<_Alloc>::_Decltype::type>::rebind<void>> std::_Get_void_pointer_type<_Alloc>::_Fn(std::_Wrap_int)'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(329): note: see declaration of 'std::_Get_void_pointer_type<_Alloc>::_Fn'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(329): error C2770: invalid explicit template argument(s) for 'std::_Identity<_Uty::void_pointer> std::_Get_void_pointer_type<_Alloc>::_Fn(int)'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(329): note: see declaration of 'std::_Get_void_pointer_type<_Alloc>::_Fn'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(336): error C2672: 'std::_Get_const_void_pointer_type<_Alloc>::_Fn': no matching overloaded function found
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(564): note: see reference to class template instantiation 'std::_Get_const_void_pointer_type<_Alloc>' being compiled
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(336): error C2770: invalid explicit template argument(s) for 'std::_Identity<pointer_traits<_Get_pointer_type<_Alloc>::_Decltype::type>::rebind<const void>> std::_Get_const_void_pointer_type<_Alloc>::_Fn(std::_Wrap_int)'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(336): note: see declaration of 'std::_Get_const_void_pointer_type<_Alloc>::_Fn'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(336): error C2770: invalid explicit template argument(s) for 'std::_Identity<_Uty::const_void_pointer> std::_Get_const_void_pointer_type<_Alloc>::_Fn(int)'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(336): note: see declaration of 'std::_Get_const_void_pointer_type<_Alloc>::_Fn'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(343): error C2672: 'std::_Get_difference_type<_Ty>::_Fn': no matching overloaded function found
+          with
+          [
+              _Ty=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(350): note: see reference to class template instantiation 'std::_Get_difference_type<_Ty>' being compiled
+          with
+          [
+              _Ty=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(567): note: see reference to class template instantiation 'std::_Get_size_type<_Alloc>' being compiled
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(343): error C2770: invalid explicit template argument(s) for 'std::_Identity<_Get_ptr_difference_type<_Get_pointer_type<_Alloc>::_Decltype::type>::type> std::_Get_difference_type<_Ty>::_Fn(std::_Wrap_int)'
+          with
+          [
+              _Alloc=std::pair<int,int>,
+              _Ty=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(343): note: see declaration of 'std::_Get_difference_type<_Ty>::_Fn'
+          with
+          [
+              _Ty=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(343): error C2770: invalid explicit template argument(s) for 'std::_Identity<_Uty::difference_type> std::_Get_difference_type<_Ty>::_Fn(int)'
+          with
+          [
+              _Ty=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(343): note: see declaration of 'std::_Get_difference_type<_Ty>::_Fn'
+          with
+          [
+              _Ty=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(350): error C2672: 'std::_Get_size_type<_Alloc>::_Fn': no matching overloaded function found
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(350): error C2770: invalid explicit template argument(s) for 'std::_Identity<make_unsigned<_Get_difference_type<_Ty>::_Decltype::type>::type> std::_Get_size_type<_Ty>::_Fn(std::_Wrap_int)'
+          with
+          [
+              _Ty=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(350): note: see declaration of 'std::_Get_size_type<_Alloc>::_Fn'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(350): error C2770: invalid explicit template argument(s) for 'std::_Identity<_Uty::size_type> std::_Get_size_type<_Alloc>::_Fn(int)'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(350): note: see declaration of 'std::_Get_size_type<_Alloc>::_Fn'
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(586): warning C4494: 'std::allocator_traits<_Alloc>::allocate' : Ignoring __declspec(allocator) because the function return type is not a pointer or reference
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(592): warning C4494: 'std::allocator_traits<_Alloc>::allocate' : Ignoring __declspec(allocator) because the function return type is not a pointer or reference
+          with
+          [
+              _Alloc=std::pair<int,int>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(975): warning C4494: 'std::_Wrap_alloc<std::pair<int,int>>::allocate' : Ignoring __declspec(allocator) because the function return type is not a pointer or reference
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(981): warning C4494: 'std::_Wrap_alloc<std::pair<int,int>>::allocate' : Ignoring __declspec(allocator) because the function return type is not a pointer or reference
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(166): warning C4624: 'std::_Is_simple_alloc<std::_Wrap_alloc<std::pair<int,int>>>': destructor was implicitly defined as deleted
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(453): note: see reference to class template instantiation 'std::_Is_simple_alloc<std::_Wrap_alloc<std::pair<int,int>>>' being compiled
+c:\users\mayada\documents\visual studio 2015\projects\parking\parking\parking.cpp(91): error C2065: 'totalParkingSpace': undeclared identifier
+c:\users\mayada\documents\visual studio 2015\projects\parking\parking\parking.cpp(92): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\mayada\documents\visual studio 2015\projects\parking\parking\parking.cpp(97): warning C4477: 'fscanf' : format string '%f' requires an argument of type 'float *', but variadic argument 2 has type 'double *'
+  c:\users\mayada\documents\visual studio 2015\projects\parking\parking\parking.cpp(97): note: consider using '%lf' in the format string
+c:\users\mayada\documents\visual studio 2015\projects\parking\parking\parking.cpp(97): warning C4477: 'fscanf' : format string '%f' requires an argument of type 'float *', but variadic argument 3 has type 'double *'
+  c:\users\mayada\documents\visual studio 2015\projects\parking\parking\parking.cpp(97): note: consider using '%lf' in the format string
+c:\users\mayada\documents\visual studio 2015\projects\parking\parking\parking.cpp(97): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'

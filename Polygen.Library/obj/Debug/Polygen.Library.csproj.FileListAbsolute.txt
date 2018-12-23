@@ -1,0 +1,6 @@
+C:\Users\mayada\work\vs17\ConsoleApp1\Polygen.Library\bin\Debug\Polygen.Library.dll
+C:\Users\mayada\work\vs17\ConsoleApp1\Polygen.Library\bin\Debug\Polygen.Library.pdb
+C:\Users\mayada\work\vs17\ConsoleApp1\Polygen.Library\obj\Debug\Polygen.Library.csprojResolveAssemblyReference.cache
+C:\Users\mayada\work\vs17\ConsoleApp1\Polygen.Library\obj\Debug\Polygen.Library.csproj.CoreCompileInputs.cache
+C:\Users\mayada\work\vs17\ConsoleApp1\Polygen.Library\obj\Debug\Polygen.Library.dll
+C:\Users\mayada\work\vs17\ConsoleApp1\Polygen.Library\obj\Debug\Polygen.Library.pdb

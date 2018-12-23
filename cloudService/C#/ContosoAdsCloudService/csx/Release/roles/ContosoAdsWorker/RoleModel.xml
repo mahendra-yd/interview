@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RoleModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ContosoAdsWorker" version="2.9.8699.20" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <Runtime>
+    <EntryPoint>
+      <NetFxEntryPoint assemblyName="ContosoAdsWorker.dll" targetFrameworkVersion="v4.0" />
+    </EntryPoint>
+  </Runtime>
+  <Properties>
+    <Property name="TargetFrameworkVersion" value="v4.5.1" />
+    <Property name="RoleType" value="Worker" />
+    <Property name="RoleName" value="ContosoAdsWorker" />
+    <Property name="ProjectName" value="ContosoAdsWorker" />
+    <Property name="Configuration" value="Release" />
+    <Property name="Platform" value="AnyCPU" />
+    <Property name="RoleTargetFramework" value="v4.5.1" />
+    <Property name="OutputDir" value="C:\Users\mayada\work\cloudService\C#\ContosoAdsCloudService\obj\Release\ContosoAdsWorker\" />
+    <Property name="EntryPoint" value="ContosoAdsWorker.dll" />
+    <Property name="SourceDir" value="" />
+    <Property name="SitePhysicalPath" value="" />
+    <Property name="TargetRuntimeVersion" value="v4.0" />
+  </Properties>
+</RoleModel>
