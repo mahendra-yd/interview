@@ -4,10 +4,14 @@
 #include<stack>
 #include<iostream>
 using namespace std;
+
 class Graph
 {
 	int V;
 	list<int>* adj;
+	enum COLOR { RED, BLUE };
+
+	COLOR * color = new COLOR[V];
 public:
 	Graph( int vertex)
 	{
@@ -15,9 +19,12 @@ public:
 		adj = new list<int>[V];
 	}
 
-	void addEdge(int u, int v)
+	void addEdge(int u, int v, bool isdirected=false)
 	{
 		adj[u].push_back(v);
+		if(!isdirected)
+			adj[v].push_back(u);
+
 	}
 	void BFS(int start) {
 		bool * visited = new bool[V] {false};
@@ -36,7 +43,68 @@ public:
 				}
 			}
 		}
+	}
 
+	bool isBipartiteOrTwoColoring()
+	{
+		queue<int > q;
+		bool *visited = new bool[V] {false};
+		for (int i = 0; i < V && !visited[i]; i++)
+		{
+			int t = adj[i].front();
+			q.push(t);
+			visited[t] = true;
+			color[t] = COLOR::RED;
+			while (!q.empty())
+			{
+				int t = q.front(); q.pop();
+				for (auto v : adj[t])
+				{
+					if (!visited[v])
+					{
+						visited[v] = true;
+						q.push(v);
+						color[v] = color[t] == COLOR::BLUE ? COLOR::RED : COLOR :: BLUE;
+					}
+					else
+					{
+						if (color[v] == color[t])
+							return false;
+					}
+				}
+			}
+		}
+		for (int i = 0; i < V; i++)
+		{
+			cout <<endl<< " " << i << " -> " << (color[i] == COLOR::BLUE) ? " BLUE " : " RED " ;
+		}
+		return true;
+	}
+
+
+	int BFSCountIsland() {
+		bool * visited = new bool[V] {false};
+		int islandcount = 0;
+		queue<int> q;
+		for (int start = 0; start < V && !visited[start]; start++) {
+			islandcount++;
+			int t = adj[start].front();
+			q.push(t);
+			while (!q.empty())
+			{
+				t = q.front(); q.pop();
+				visited[t] = true;
+				
+				for (auto i : adj[t])
+				{
+					if (!visited[i])
+					{
+						q.push(i);
+					}
+				}
+			}
+		}
+		return islandcount;
 	}
 	void DSFUtil(int start, bool* visited,bool print=true){
 
@@ -71,7 +139,7 @@ public:
 			}
 		}
 	}
-		bool isCyclicUtil(int s, bool *visited, bool *recpath)
+bool isCyclicUtil(int s, bool *visited, bool *recpath)
 	{
 		if (!visited[s])
 		{
@@ -95,7 +163,7 @@ public:
 		bool *recpath = new bool[V] {false};
 		for (int i = 0; i < V; i++)
 		{
-			if (isCyclicUtil(i, visited, recpath))
+			if (isCyclicUtil(adj[i].front(), visited, recpath))
 				return true;
 		}
 		return false;
@@ -118,7 +186,7 @@ public:
 		for (int i = 0; i < V; i++)
 		{
 			if (!visited[i])
-				topologicalSortUtil(i, visited, s);
+				topologicalSortUtil(adj[i].front(), visited, s);
 		}
 		while (!s.empty())
 		{
@@ -149,7 +217,7 @@ public:
 
 };
 
-int main()
+void DemoGraph()
 {
 	Graph g(7);
 	g.addEdge(0, 1);
@@ -161,6 +229,5 @@ int main()
 	g.addEdge(5, 2);
 	g.addEdge(6, 0);
 
-	cout << "A mother vertex is " << g.hasMotherVertex();
-	return 0;
+	cout << "A mother vertex is " << g.isBipartiteOrTwoColoring();
 }

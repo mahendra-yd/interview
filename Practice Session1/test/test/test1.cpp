@@ -123,7 +123,6 @@ char* convert(const char* input)
 
 	char * output = (char*)malloc(len + numberOfdots + 1);
 	memset(output, 0, len + numberOfdots + 1);
-	ptr = input;
 	int counter = 0;
 	int i = 0;
 	while (ptr[i] != '\0')
@@ -203,7 +202,6 @@ public:
 		{
 			insert(item);
 		}
-
 	}
 	List(const List& l)
 	{
@@ -297,7 +295,7 @@ public:
 
 	}
 
-	bool operator==(List& l)
+	bool operator==(const List& l)
 	{
 		Node* h1 = this->root, *h2 = l.root;
 		while (h1&&h2)
@@ -343,7 +341,7 @@ Node* insertIntoBST(Node* root,int info)
 Simple merge 
 1- create copy of first list
 2- iterate through remaing list
-3- inset each item of list into first list in sorted order 
+3- insert each item of list into first list in sorted order 
 ## inserting in list in sorted order will be O(n2)
 
 */
@@ -360,7 +358,7 @@ List* merge(vector<List> lists)
 
 /*
 Merge Using BST tree
-1- cunstruct emptry BST
+1- cunstruct empty BST
 2- iterate to all list and insert items into BST
 3- convert bst to list
 4- return list

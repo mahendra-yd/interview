@@ -24,6 +24,7 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>test</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>test2</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -154,7 +155,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="MaxNumberOfPlatfromNeeded.cpp" />
+    <ClCompile Include="NumberAndBits.cpp" />
+    <ClCompile Include="ProducerConsumer.cpp" />
+    <ClCompile Include="Sorting.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Stack.cpp" />
     <ClCompile Include="StackAndQueue.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -165,6 +172,7 @@
     <ClCompile Include="PriorityLock.cpp" />
     <ClCompile Include="test1.cpp" />
     <ClCompile Include="test3.cpp" />
+    <ClCompile Include="tree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
